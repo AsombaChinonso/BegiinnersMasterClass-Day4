@@ -1,0 +1,90 @@
+/* * {
+
+} */
+
+body{
+    background-color: gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1000px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+/* RED BACKGROUND CSS */
+
+.banner{
+    background-color: #b70800;
+    padding: 32px;
+    text-align: center;
+    color: white;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.sub-heading{
+    text-transform: uppercase;
+    margin-top: -45px;
+}
+
+.logo{
+    width: 30%;
+    margin-top: -60px;
+}
+
+.heading1{
+    text-transform: uppercase;
+    font-size: 42px;
+    margin-top: -55px;
+}
+
+
+/* IMAGE BACKGROUND CSS */
+.food_banner{
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.food_banner:hover{
+    opacity: 0.8; 
+    /* in css - opacity varies from 0, 0.1, 0.2 ....... 1 */
+    cursor: pointer;
+}
+
+
+/* MENU SECTION CLASSES */
+.meals{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 5vw);
+    grid-gap: 5px;
+}
+
+.dish1{
+    /* width: 50%; */
+}
+
+.dish1:hover{
+    opacity: 0.5;
+    transition: ease-in 250ms;
+    cursor: pointer;
+}
+
+
+/* Footer CSS */
+.h4tag{
+    font-size: 32px;
+    margin-top: -45px;
+}
+
+.visit{
+    margin-bottom: 40px;
+}
+
+.social{
+    margin-top: -40px;
+}
